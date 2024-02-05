@@ -1,29 +1,13 @@
-# vue-project
+# VueJs-Vite ile Basit Haber Scripti 
+![index](https://github.com/yazilimfuryasi/news-with-vuejs/assets/84662757/48f4052e-7526-41aa-b512-c70030cd63ac)
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+[newsapi.org](https://newsapi.org/) sitesinden aldığınız API'i .env dosyasına yazın;
+```
+VITE_API_KEY=API
 ```
 
-### Compile and Hot-Reload for Development
-
+Çalıştırmak için;
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
